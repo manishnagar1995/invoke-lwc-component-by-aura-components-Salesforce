@@ -1,0 +1,3 @@
+<aura:component description="createnewContact" implements="force:appHostable,force:hasRecordId,force:lightningQuickAction" access="global">
+     <c:lWC_invoke_By_Quick_Action recordId ="{!v.recordId}"/>
+</aura:component>
